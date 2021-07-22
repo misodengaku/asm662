@@ -1,0 +1,78 @@
+/* special function registers for 66201/66207 */
+{
+	i=0x00; 
+	makesfr("SSPL"); makesfr("SSPH");
+	makesfr("LRBL"); makesfr("LRBH");
+	makesfr("PSWL"); makesfr("PSWH");
+	makesfr("ACCL");   makesfr("ACCH");
+	makesfr("SI");   makesfr("SIH");
+	makesfr("DI");   makesfr("DIH");
+	makesfr("CX");
+	i=0x0e; makesfr("BSDI");
+	i=0x10; makesfr("SBYCON"); makesfr("WDT");
+	makesfr("PRPHF");
+	// i=0x13; makesfr("Stop Mode Buffer Flag");
+	// i=0x16; makesfr("Work Area for Emulator");
+	i=0x18; makesfr("IRQL"); makesfr("IRQH");
+	makesfr("IEL"); makesfr("IEH"); makesfr("EXION");
+	i=0x20; makesfr("P0"); makesfr("P0IO"); makesfr("P1"); makesfr("P1IO");
+	makesfr("P2"); makesfr("P2IO"); makesfr("P2SF");
+	i=0x28; makesfr("P3"); makesfr("P3IO"); makesfr("P3SF");
+	i=0x2c; makesfr("P4"); makesfr("P4IO"); makesfr("P4SF");
+	makesfr("P5");
+	makesfr("TM0"); makesfr("TM0H"); makesfr("TMR0"); makesfr("TMR0H");
+	makesfr("TM1"); makesfr("TM1H"); makesfr("TMR1"); makesfr("TMR1H");
+	makesfr("TM2"); makesfr("TM2H"); makesfr("TMR2"); makesfr("TMR2H");
+	makesfr("TM3"); makesfr("TM3H"); makesfr("TMR3"); makesfr("TMR3H");
+	makesfr("TCON0"); makesfr("TCON1"); makesfr("TCON2"); makesfr("TCON3");
+	i=0x46; makesfr("TRNS");
+	i=0x48; makesfr("STTM"); makesfr("STTMR"); makesfr("STTMC");
+	i=0x4c; makesfr("SRTM"); makesfr("SRTMR"); makesfr("SRTMC");
+	i=0x50; makesfr("STCON"); makesfr("STBUF");
+	i=0x54; makesfr("SRCON"); makesfr("SRBUF"); makesfr("SRSTAT");
+	i=0x58; makesfr("ADSCAN"); makesfr("ADSEL");
+	i=0x60; makesfr("ADCR0L"); makesfr("ADCR0H"); makesfr("ADCR1L"); makesfr("ADCR1H");
+	makesfr("ADCR2L"); makesfr("ADCR2H"); makesfr("ADCR3L"); makesfr("ADCR3H");
+	makesfr("ADCR4L"); makesfr("ADCR4H"); makesfr("ADCR5L"); makesfr("ADCR5H");
+	makesfr("ADCR6L"); makesfr("ADCR6H"); makesfr("ADCR7L"); makesfr("ADCR7H");
+	makesfr("PWMC0L"); makesfr("PWMC0H"); makesfr("PWMR0L"); makesfr("PWMR0H");
+	makesfr("PWMC1L"); makesfr("PWMC1H"); makesfr("PWMR1L"); makesfr("PWMR1H");
+	makesfr("PWCON0");
+	i=0x7a; makesfr("PWCON1");
+/*
+	i=0x80;
+	makesfr("pr0_X1");  makesfr("pr0_X1H");
+	makesfr("pr0_X2");  makesfr("pr0_X2H");
+	makesfr("pr0_DP");  makesfr("pr0_DPH");
+	makesfr("pr0_USP"); makesfr("pr0_USPH");
+	makesfr("pr1_X1");  makesfr("pr1_X1H");
+	makesfr("pr1_X2");  makesfr("pr1_X2H");
+	makesfr("pr1_DP");  makesfr("pr1_DPH");
+	makesfr("pr1_USP"); makesfr("pr1_USPH");
+	makesfr("pr2_X1");  makesfr("pr2_X1H");
+	makesfr("pr2_X2");  makesfr("pr2_X2H");
+	makesfr("pr2_DP");  makesfr("pr2_DPH");
+	makesfr("pr2_USP"); makesfr("pr2_USPH");
+	makesfr("pr3_X1");  makesfr("pr3_X1H");
+	makesfr("pr3_X2");  makesfr("pr3_X2H");
+	makesfr("pr3_DP");  makesfr("pr3_DPH");
+	makesfr("pr3_USP"); makesfr("pr3_USPH");
+	makesfr("pr4_X1");  makesfr("pr4_X1H");
+	makesfr("pr4_X2");  makesfr("pr4_X2H");
+	makesfr("pr4_DP");  makesfr("pr4_DPH");
+	makesfr("pr4_USP"); makesfr("pr4_USPH");
+	makesfr("pr5_X1");  makesfr("pr5_X1H");
+	makesfr("pr5_X2");  makesfr("pr5_X2H");
+	makesfr("pr5_DP");  makesfr("pr5_DPH");
+	makesfr("pr5_USP"); makesfr("pr5_USPH");
+	makesfr("pr6_X1");  makesfr("pr6_X1H");
+	makesfr("pr6_X2");  makesfr("pr6_X2H");
+	makesfr("pr6_DP");  makesfr("pr6_DPH");
+	makesfr("pr6_USP"); makesfr("pr6_USPH");
+	makesfr("pr7_X1");  makesfr("pr7_X1H");
+	makesfr("pr7_X2");  makesfr("pr7_X2H");
+	makesfr("pr7_DP");  makesfr("pr7_DPH");
+	makesfr("pr7_USP"); makesfr("pr7_USPH");
+*/
+}
+
